@@ -12,6 +12,7 @@ gem 'rails', '~> 5.1.6'
 gem 'devise'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.1.1'
+gem 'stripe'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
