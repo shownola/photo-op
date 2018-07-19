@@ -13,6 +13,10 @@ gem 'devise'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.1.1'
 gem 'stripe'
+gem 'carrierwave', '~> 1.0'
+gem 'mini_magick'
+gem 'fog-aws'
+
 
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
