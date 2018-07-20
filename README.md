@@ -4,3 +4,4 @@ This is a subscription based photo sharing app. Features include:
 * Bootstrap 4  
 * Stripe for credit card processing
 * User authentication via Devise
+* Image Uploading with Fog/AWS
