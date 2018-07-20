@@ -2,17 +2,50 @@ $light-blue: #A1C6E9;
 $sea-green: #15A9DC;
 $dark-gray: #14222A;
 $brown: #6D4337;
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+h1, h2 {
+ font-family: 'Poiret One', cursive; 
+  
+}
 
 .navbar {
   margin-bottom: 0px !important;
+  .nav-link {
+    color: $sea-green !important;
+  }
 }
 // .jumbotron > .container {
 //   position: relative;
 //   top: 50%;
 //   transform: translateY(-50%);
 // }
+a .nav-link{
+  font-size: 18px;
+  color: $sea-green;
+}
+
+#logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: 'Poiret One', cursive;
+  font-weight: 700;
+  color: #fff;
+}
+.display-1 {
+  font-family: 'Poiret One', cursive; 
+  font-weight: 700;
+  margin-top: 175px;
+  text-shadow: 1px 1px 2px #000000;
+}
 .bg-blue {
   background-color: $light-blue;
+  
 }
 .jumbotron {
   text-align: center;
@@ -20,7 +53,7 @@ $brown: #6D4337;
   background-size: cover;
   color: #fff;
   height: 600px;
-  font-family: 'Helvetica Neue' !important;
+  
   font-stretch: expanded;
   padding-top: 25px;
   padding-bottom: 25px;
