@@ -16,6 +16,7 @@ gem 'stripe'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
 gem 'fog-aws'
+gem 'fog'
 
 
 # Use Puma as the app server
