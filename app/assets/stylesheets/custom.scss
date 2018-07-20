@@ -2,6 +2,7 @@ $light-blue: #A1C6E9;
 $sea-green: #15A9DC;
 $dark-gray: #14222A;
 $brown: #6D4337;
+$blue: #077FCE;
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 
@@ -15,9 +16,10 @@ h1, h2 {
 }
 
 .navbar {
-  margin-bottom: 0px !important;
+  margin-bottom: 10px !important;
   .nav-link {
-    color: $sea-green !important;
+    color: $blue !important;
+    font-size: 18px;
   }
 }
 // .jumbotron > .container {
@@ -27,7 +29,10 @@ h1, h2 {
 // }
 a .nav-link{
   font-size: 18px;
-  color: $sea-green;
+  color: $blue;
+}
+.btn-primary {
+  background: $blue;
 }
 
 #logo {
@@ -53,9 +58,9 @@ a .nav-link{
   background-size: cover;
   color: #fff;
   height: 600px;
-  
+  margin-top: 10px;
   font-stretch: expanded;
-  padding-top: 25px;
+  padding-top: 35px;
   padding-bottom: 25px;
   margin-left: 15px;
   margin-right: 15px;
