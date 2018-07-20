@@ -15,7 +15,7 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'stripe'
 gem 'carrierwave', '~> 1.0'
 gem 'mini_magick'
-gem 'fog-aws'
+# gem 'fog-aws'
 gem 'fog'
 
 
